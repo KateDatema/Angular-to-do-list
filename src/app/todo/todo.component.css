@@ -1,0 +1,30 @@
+
+body {
+  background-image: linear-gradient(to left, #f857a6,#ff5858);
+  background-size: cover;
+  font-family: Open Sans;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+button {
+  background-color: #f857a6;
+  padding: 1%;
+  margin: 5px;
+}
+
+.container {
+  background-color: #eee;
+  padding: 5%;
+  margin:10%
+}
+
+mat-icon {
+  padding: 0%
+}
+form {
+  padding: 3%;
+}
