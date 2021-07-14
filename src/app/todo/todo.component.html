@@ -4,8 +4,11 @@
 
     <form #SearchTaskForm="ngForm" ngModel (ngSubmit)="search(SearchTaskForm)">
         <input type = "text" name="task" ngModel placeholder="task name" />
+        <br>
         <button>Search for task</button>
     </form>
+
+    <br>
 
     <div *ngFor = "let toDo of listOfTodo; index as i"> 
         <div *ngIf="toDo.completed == false">
@@ -26,6 +29,7 @@
     </div>
 
     <div>
+        <br>
         <!-- #addNameForm is the name of the whole element, and we are telling angular to store the form in a varaible called addTaskForm-->
         <form  #addTaskForm="ngForm" ngModel (ngSubmit)="addTask(addTaskForm)">
             <input type = "text" name="task" ngModel placeholder="Example: order paint" />
