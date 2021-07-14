@@ -1,13 +1,16 @@
 
-body {
+html {
   background-image: linear-gradient(to left, #f857a6,#ff5858);
-  background-size: cover;
   font-family: Open Sans;
   font-weight: 300;
 }
 
 h1 {
   font-size: 30px;
+}
+
+.done {
+  text-decoration: line-through;
 }
 
 button {

@@ -1,2 +1,6 @@
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+html {
+    background-image: linear-gradient(to left, #f857a6,#ff5858);
+}

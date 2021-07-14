@@ -1,4 +1,4 @@
-
+<html>
 <div class="container" >
     <h1>To-Do List!</h1>
 
@@ -17,8 +17,8 @@
         </div>
     
         <div *ngIf="toDo.completed == true">
-            <input type="checkbox" checked="true"/>
-            <label> {{toDo.task}}</label>
+            <input type="checkbox" checked="true" disabled/>
+            <label class="done"> {{toDo.task}}</label>
             <button mat-fab color="primary" aria-label="delete" (click)="delete(i)">
                 <mat-icon>delete</mat-icon>
             </button>
@@ -33,4 +33,4 @@
         </form>
     </div>
 </div>
-
+</html>
